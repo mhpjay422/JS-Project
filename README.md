@@ -3,8 +3,7 @@
 ## Object of the Game
 
 The player will be trapped in a treasure room and be prompted that the pirate that stored his treasure here will let
-them leave with the treasure if they survive his game. Projectiles from the walls will shoot from all directions. If they
-survive a round, a treasure will drop.
+them leave with the treasure if they survive his game. Projectiles from the walls will shoot from all directions. Obstacles will drop and hurt the player if they land on them. After each round, projectiles and obstacles will move faster and render more frequent. If they survive a round, a treasure will drop.
 
 ## MVPs
 
@@ -14,16 +13,18 @@ Render a player character that has collision detection and will be moved via key
 
 ### Projectiles
 
-Render arrows that will fire from the walls
-Render boulders that will roll out from the walls
+Render arrows and boulders that will fire from the walls
 
 ### Obstacles
 
-Render "walls" that will have collision
+Render walls that will have collision
+
+Render Stone blocks that will have collision that drop from the ceiling with a shadow rendered beforehand (??Bonus??)
 
 ### Treasure
 
 Render treasure that will drop after each round and additional treasure that will appear from floor for a short duration
+in the middle of rounds
 
 ### Bonus MVPs
 
@@ -43,10 +44,6 @@ Add other items that will give special abilities
 
 Add tiles that will have spikes come up hurting the player
 
-#### Stone Slabs
-
-Add Stone blocks that drop from the ceiling with a shadow rendered beforehand
-
 ## Technologies
 
 - Vanilla JS
@@ -55,7 +52,7 @@ Add Stone blocks that drop from the ceiling with a shadow rendered beforehand
 
 ## WireFrame
 
-![]()
+![Alt text](relative/assets/images/Untitled Diagram.xml?raw=true "Title")
 
 ## Timeline
 
@@ -67,8 +64,8 @@ Add Stone blocks that drop from the ceiling with a shadow rendered beforehand
 
 ### Day 2
 
+- Obstacles
 - Projectiles
-- Boulders
 
 ### Day 3
 
