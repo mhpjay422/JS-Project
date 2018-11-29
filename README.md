@@ -52,7 +52,7 @@ Add tiles that will have spikes come up hurting the player
 
 ## WireFrame
 
-![Alt text](relative/assets/images/Untitled Diagram.xml?raw=true "Title")
+![Alt text](assets/images/Untitled Diagram.xml?raw=true "Title")
 
 ## Timeline
 
